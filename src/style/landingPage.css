@@ -1,0 +1,50 @@
+.myBG {
+  height: 100vh;
+  background: url('../assets/photo/bg/theater.jpg');
+  background-size: cover;
+}
+
+.intro  {
+  height: 380px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1;
+  text-shadow: 2px 2px black;
+  color:red;
+  letter-spacing: 5px;
+}
+
+.trending {
+  height: auto;
+  background: url('../assets/photo/bg/background_movie.jpg');
+  background-size: cover;
+}
+
+/* .movie-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+} */
+
+.movie-image {
+  height: auto;
+  background-color: black;
+  margin:5px;
+  padding: 5px;
+}
+
+.images {
+  height: 500px;
+}
+
+.superhero {
+  height: auto;
+  background: url('../assets/photo/film/superhero/spiderman3.jpg');
+  background-size: cover;
+}
